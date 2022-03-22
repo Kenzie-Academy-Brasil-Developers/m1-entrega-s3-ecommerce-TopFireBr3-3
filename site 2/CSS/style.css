@@ -1,0 +1,277 @@
+
+/* Header */
+.preto{
+    font-size: 16px;
+    color:black;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.nav{
+    font-size: 16px;
+    color:#828282;
+    text-decoration: none;
+    line-height: 16px;
+    border: none;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+#logo{
+    font-size: 30px;
+    margin-left: 118px;
+}
+
+#listaNav{
+    margin-right: 107px;
+    display: flex;
+}
+
+/* Main */
+figure{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 70%;
+    display: flex;
+    right: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pVitrine{
+    font-size: 12px;
+    background:#2E245E;
+    color:#FFFFFF;
+    width: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.linkCarrinho{
+    font-size: 14px;
+    color: rgb(132, 125, 115);
+    border:none;
+    background-color: #FFFFFF;
+
+}
+
+
+img{
+    height: 140px;
+}
+
+span{
+    color: #828282;
+}
+
+.div{
+    padding: 30px;
+    margin: 19px 21px 55px 50px;
+    height: 380px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transition: 1s;
+    justify-content: space-around;   
+}
+
+.clasMain{
+    margin-top: 40px;
+    display: flex;
+}
+.linkcard{
+    font-size: 14px;
+    color: #828282; 
+    background-color: #FFFFFF;
+    border: none;
+    text-align: start;
+    padding:0px;
+}
+.nav:hover{
+    color: black;
+}
+.div:hover{
+    transform: scale(1.3);
+    transition: 1s;
+    border-radius: 10px;
+    box-shadow: 3px #333333 ;
+    border: #333333 1px solid;
+}
+.linkcard:hover{
+    color:#2E245E;
+}
+/* carrinho */
+aside{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 361px;
+    height: 40px;
+}
+#tituloCarro{
+
+    display: flex;
+    background: #6B54DE;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 347px;
+    height: 50px;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h2{
+    font-size: 22px;
+}
+.button{
+    background: #6B54DE;
+    color:#FFFFFF;
+    border:none;
+}
+input{
+    border: none;
+    margin-bottom: 5px;
+    Width: 196px;
+    Height: 87px;
+    margin-right: 10px;
+}
+#divaide{
+    margin-right: 10px;
+    display: flex;
+    height: 350px;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+}
+#scroll{
+
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+    flex-wrap: wrap;
+    border: none;
+}
+.buttonperquisa button{
+    width: 96px;
+    height: 50px;
+}
+
+.buttonperquisa input{
+    width: 246px;
+    height: 50px;
+}
+.carrinhoId{
+    font-size: 14px;
+    color: #828282;
+    background-color: #FFFFFF;
+    border: none;
+    text-align: start;
+    padding: 0px;
+    margin-left: 25px;
+}
+#resultado{
+    display: none;
+    width: 343px;
+    height: 126px;
+    background: #333333;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 0px 10px 10px 0px ;
+}
+#p1Resultados{
+    height: 63px;
+    margin: 0px;
+    display: flex;
+    padding: 0px 0px 0px 10px;
+    background: #333333;
+    color:#FFFFFF;
+    align-items: center;
+}
+#p2Resultados{
+    height: 63px;
+    margin: 0px;
+    display: flex;
+    padding: 0px 0px 0px 10px;
+    background: #333333;
+    color:#FFFFFF;
+    align-items: center;
+}
+#p3numeros{
+    height: 63px;
+    margin: 0px;
+    display: flex;
+    padding: 0px 10px 0px 0px;
+    color: #828282;
+    justify-content: flex-end;
+    align-items: center;
+}
+#p4numeros{
+    height: 63px;
+    margin: 0px;
+    display: flex;
+    padding: 0px 10px 0px 0px;
+    color: #828282;
+    align-items: center;
+}
+.imagemsscroll{
+    width:140px ;
+    height: 90px;
+}
+.central{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.divLista{
+    width: 153px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: center;
+}
+.posicionamentoTexto{
+    display: flex;
+    margin: 0;
+}
+.figurecarrinho{
+    margin: 20px 10px 10px 10px;
+}
+.linkCarrinho{
+    font-size: 14px;
+    color: #828282;
+    border: none;
+    text-align: start;
+    padding: 0px;
+}
+.vazio{
+    margin-top: 200px;
+}
+.Apagar{
+    display: none;
+}
+
+
