@@ -1,7 +1,8 @@
 // add carrinho  V
 
 
-const divaide= document.querySelector(".central")
+const central= document.querySelector(".central")
+
 
 const buttonAdd = document.querySelectorAll(".linkcard");
 
@@ -38,6 +39,8 @@ function newItem(Id){
             li.classList="posicionamentoTexto"
             figura.classList="figurecarrinho"
             li.id="li-"+cards[i].Id
+
+            central.innerHTML=""
             central.appendChild(li)
 
             li.classList="posicionamentoTexto"

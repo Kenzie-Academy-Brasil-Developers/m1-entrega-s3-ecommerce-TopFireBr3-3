@@ -144,7 +144,7 @@ aside{
 h2{
     font-size: 22px;
 }
-.button{
+.insertIten{
     background: #6B54DE;
     color:#FFFFFF;
     border:none;
@@ -165,7 +165,7 @@ input{
     align-items: center;
 }
 #scroll{
-
+    z-index: 10;
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
@@ -191,8 +191,8 @@ input{
     padding: 0px;
     margin-left: 25px;
 }
-#resultado{
-    display: none;
+.resultado-show{
+    display: flex;
     width: 343px;
     height: 126px;
     background: #333333;
@@ -202,6 +202,10 @@ input{
     align-content: space-between;
     margin: 0px 10px 10px 0px ;
 }
+.resultado-hide{
+    display:none;
+}
+
 #p1Resultados{
     height: 63px;
     margin: 0px;
@@ -267,8 +271,11 @@ input{
     text-align: start;
     padding: 0px;
 }
-.vazio{
+.vazio-show{
     margin-top: 200px;
+}
+.vazio-hide{
+    display:none;
 }
 .Apagar{
     display: none;

@@ -24,11 +24,11 @@
         <main>
         </main>
         <aside> 
-            <form action="" class="buttonperquisa">
+            <div  class="buttonperquisa">
                 <input type="text" placeholder="Digite aqui sua pesquisa" id="valueList">
-                <button class="button">Pesquisar</button>
+                <button class="insertIten" id="insertIten">Pesquisar</button>
                 <h3 id="tituloCarro">Carrinho de compras</h3>
-            </form>
+            </div>
             <section id="divaide">
                 <section id="scroll">
                     <ul class="central" id="central">
@@ -61,15 +61,19 @@
                                 <p>R$ 100.00</p>
                                 <a href="" class="linkCarrinho">remover do carrinho</a>
                             </section>
-                        </li>   
+                        </li> -->  
                     </ul>
                 </section>   
-                <section id="resultado">
+                <div class="vazio-show" id="vazio-show">
+                    <h2>Carrinho vázio</h2>
+                    <a  class="carrinhoId" >Adicione itens</a>
+                </div>
+                <section id="resultado" class="resultado-hide">
                     <p id="p1Resultados">Quantidade:</p>
                     <p id="p2Resultados">Total:</p>
                     <p id="p3numeros">0</p>
                     <p id="p4numeros">R$ 200,00</p>
-                </section>-->
+                </section>
             </section>
         </aside>
     </section>
