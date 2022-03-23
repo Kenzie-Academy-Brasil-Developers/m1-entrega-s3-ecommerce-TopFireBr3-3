@@ -173,6 +173,9 @@ input{
     flex-wrap: wrap;
     border: none;
 }
+.buttonperquisa{
+    min-width: 361px;
+}
 .buttonperquisa button{
     width: 96px;
     height: 50px;
